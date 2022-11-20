@@ -316,6 +316,25 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!1 &611082354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7668127381131090524, guid: 853ee6db66da89246a05a521c995da71,
+    type: 3}
+  m_PrefabInstance: {fileID: 1835323284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &611082357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611082354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453978d73509f054cbb601702a2ffb31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleType: 1
 --- !u!1 &961739749
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,6 +453,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1020135793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7668127380145894093, guid: 853ee6db66da89246a05a521c995da71,
+    type: 3}
+  m_PrefabInstance: {fileID: 1835323284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1020135796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020135793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453978d73509f054cbb601702a2ffb31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleType: 0
 --- !u!1 &1673881673
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,6 +641,16 @@ PrefabInstance:
       propertyPath: m_StaticShadowCaster
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4017586082765304333, guid: 853ee6db66da89246a05a521c995da71,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 963060f091179bd41a5980dd258b54ce, type: 2}
+    - target: {fileID: 4017586083927579292, guid: 853ee6db66da89246a05a521c995da71,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 963060f091179bd41a5980dd258b54ce, type: 2}
     - target: {fileID: 5129475011312546995, guid: 853ee6db66da89246a05a521c995da71,
         type: 3}
       propertyPath: m_LocalScale.z
